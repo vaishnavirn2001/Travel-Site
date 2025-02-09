@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Stack items vertically */
+}
+
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 800px; /* Increase the container width to accommodate the form */
+    display: flex;
+    flex-direction: row; /* Arrange content side by side */
+    justify-content: space-between; /* Separate the content */
+}
+
+.left-content {
+    width: 50%; /* Set the width for the left side content */
+    text-align: left; /* Align left content to the left */
+}
+
+.right-content {
+    width: 50%; /* Set the width for the right side content */
+    text-align: center; /* Align form content to the center */
+}
+
+h2 {
+    color: #333;
+    margin: 0; /* Remove default margin for the heading */
+}
+
+address {
+    text-align: left; /* Align contact info to the left */
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #34373a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form content vertically */
+}
+
+.label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Set the label container width */
+}
+
+label, input, textarea {
+    margin-bottom: 10px;
+}
+
+label {
+    text-align: left; /* Align labels to the left */
+}
+
+.button-container {
+    width: 100%; /* Set the button container width */
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+}
+
+button {
+    background-color: #303133;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e1f21;
+}
